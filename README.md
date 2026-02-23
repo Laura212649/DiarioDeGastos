@@ -1,4 +1,5 @@
 Diário de Gastos
+
 Aplicação Java para gerenciar seus gastos semanais e mensais diretamente pelo Terminal. Permite cadastrar, editar, remover e consultar gastos, com persistência dos dados em arquivo texto.
 
 Funcionalidades
