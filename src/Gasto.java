@@ -18,10 +18,14 @@ public class Gasto {
     public double getValor() {return valor;}
     public LocalDate getData() {return data;}
 
+    public void setDescricao(String descricao) { this.descricao = descricao; }
+    public void setCategoria(String categoria) { this.categoria = categoria; }
+    public void setValor(double valor) { this.valor = valor; }
+    public void setData(LocalDate data) { this.data = data; }
+
     @Override
     public String toString() {
         return String.format("Descrição: %s | Categoria: %s | Valor: %.2f | Data: %s",
                 descricao, categoria, valor, data.toString());
     }
-
 }
